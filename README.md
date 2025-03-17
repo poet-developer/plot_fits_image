@@ -1,14 +1,14 @@
 # :dizzy: plot_fits_image
 
 위키에서 공개되어있는 별자리와 성운 등의 적경과 적위 정보를 입력하여, 허블 아카이브에서 별을 촬영한 천문 기록 데이터른 fits 확장자 파일을 다운받아 파이썬 코드를 활용해 분석했다.
-fits파일은 그래픽 파일만 구현이 가능할 뿐아니라, 촬영 날짜 정보 찍고 있는 위치, 사용 기기 등의 정보를 제공하고있다.
+fits파일은 그래픽 파일만 구현이 가능할 뿐아니라, 촬영 날짜 정보 찍고 있는 위치, 사용 기기 등의 정보를 제공하고있다. 코드는 생성형 AI를 통해 작성했으며, 데이터에 대한 분석은 코드로 계속 데이터를 돌려보며 익힐 수 있었다. 즉, 과학 정보도 아무런 사전 지식 없는 나 같은 사람이 접근 및 분석을 시도할 수 있는 것이 공공데이터의 의의다.
 
 ### :dizzy:원숭이 머리 성운 정보
 
 #### - 원숭이 머리 성운 위키정보 사용
 [원숭이 머리 성운 위키 정보](https://ko.wikipedia.org/wiki/%EC%9B%90%EC%88%AD%EC%9D%B4_%EB%A8%B8%EB%A6%AC_%EC%84%B1%EC%9A%B4 )
 
-#### -ㅜ원숭이 머리 성운 Hubble Legacy Archive
+#### -원숭이 머리 성운 Hubble Legacy Archive
 [원숭이 머리 성운 fits 파일 출처](https://hla.stsci.edu/hlaview.html#Inventory|filterText%3D%24filterTypes%3D|query_string=06%2009.7%2020%2030&posfilename=&poslocalname=&posfilecount=&listdelimiter=whitespace&listformat=degrees&RA=92.425000&Dec=20.500000&Radius=0.200000&inst-control=all&inst=ACS&inst=ACSGrism&inst=WFC3&inst=WFPC2&inst=NICMOS&inst=NICGRISM&inst=COS&inst=WFPC2-PC&inst=STIS&inst=FOS&inst=GHRS&imagetype=best&prop_id=&spectral_elt=&proprietary=both&preview=1&output_size=256&cutout_size=12.8|ra=&dec=&sr=&level=&image=&inst=ACS%2CACSGrism%2CWFC3%2CWFPC2%2CNICMOS%2CNICGRISM%2CCOS%2CWFPC2-PC%2CSTIS%2CFOS%2CGHRS&ds=)
 
 - 흑백 촬영본 그리기
